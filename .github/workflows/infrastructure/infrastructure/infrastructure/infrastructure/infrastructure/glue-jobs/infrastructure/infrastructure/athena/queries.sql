@@ -1,9 +1,9 @@
--- View sample records from product data
+-- View sample records from processed product data
 SELECT *
-FROM product
+FROM mydatabase.product
 LIMIT 10;
 
 -- Daily summary report: total number of records
 SELECT
   COUNT(*) AS total_records
-FROM product;
+FROM mydatabase.product;
